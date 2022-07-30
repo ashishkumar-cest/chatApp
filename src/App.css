@@ -1,0 +1,36 @@
+.chatContainer{
+  flex-grow: 1;
+  margin: auto;
+  background-color: bisque;
+}
+.chatBox{
+  width: 200px;
+  background: lightblue;
+  border-radius: 5px;
+  padding: 10px, 16px;
+  margin: 10px;
+}
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.me {
+  display: flex;
+}
+.buttom{
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  display: flex;
+  flex-direction: row;
+  margin: 10px,10px;
+}
+.buttom input{
+  padding: 10px 0;
+  flex-grow: 1;
+}
+.chatCon{
+  height: 80vh;
+  overflow-y: scroll;
+
+}
